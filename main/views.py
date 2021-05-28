@@ -108,25 +108,3 @@ class CommentCreateView(CreateAPIView):
     serializer_class = CommentSerializer
     permission_classes = [IsAuthenticated, ]
 
-#TODO: сделать отдельный сериализатор для листинга постов
-#TODO: сделать избранное(лайки)
-#TODO: сделать восстановление и смену пароля
-#TODO: сделать пояснения к коду
-#TODO: сделать пошаговый документ
-#TODO: разобрать все в Postman
-
-# CRUD (Create, Read, Upd   ate, Delete)
-# CRUD(Create, Retrieve, Update, Destroy)
-
-# router.register('posts', PostViewSet)
-# path('api/v1/', include(router.urls))
-
-# POST - api/v1/posts/ - создание
-# GET - api/v1/posts/ - листинг
-# GET - api/v1/posts/pk/ - детали
-# PUT/PATCH - api/v1/posts/pk/ изменение
-# DELETE - /api/v1/posts/pk/ удаление
-
-# BasicAuth - username, password
-# TokenAuth - Authorization: Token awafsefrr3r321323123132312
-# SessionAuth - состояние пользователя хранится в сессии
